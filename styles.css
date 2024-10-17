@@ -1,0 +1,300 @@
+*{
+     
+     margin: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+     box-sizing:border-box;
+     width: auto;
+     height: auto;
+     
+     
+     
+}
+
+h1{
+     text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+}
+#logo{
+     height: 100px;
+     width:auto;
+     border-radius: 25px;
+   
+
+
+  
+
+}
+#pic_metal{
+     
+     display: flex;
+     justify-content: center;
+     
+     
+     
+}
+
+
+body{
+     padding-top: 10px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     height: auto;
+     width:auto
+}
+html{
+     padding: 0;
+     margin: 0;
+    height: 100vh;
+     background: linear-gradient(to right top, yellow, blue);
+
+}
+
+
+.calculate{
+     padding: 10px;
+     margin: 10px;
+    
+}
+
+
+.container1{
+    
+     padding: 5px;
+     background: transparent;
+     overflow: hidden;
+     border-radius: 20px;
+    /* position: relative;/*umiejscowienie wzgledne */
+     top: 10px;
+     backdrop-filter: blur(10px);
+     height: min-content;
+     width: min-content;
+    
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+           
+}
+.page1{
+     padding: 5px;
+     background: linear-gradient(to right top, rgba(20, 1, 1, 0.75), rgba(0, 0, 0, 0.25));
+     overflow: hidden;
+     border-radius: 20px;
+    /* position: relative;/*umiejscowienie wzgledne */
+     top: 10px;
+     backdrop-filter: blur(10px);
+     height: min-content;
+     width: min-content;
+     box-shadow: 10px 5px 10px 5px rgb(2, 1, 72);
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+
+
+.buttons_crane{
+     border: 10px;
+     margin: 10px;
+     padding-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+       
+ }
+.button_select{
+  border-radius: 25px;
+  font-size: 20px;
+  background: linear-gradient(to right,  rgb(249, 194, 194), rgb(98, 3, 3));
+  width: 160px;
+  backdrop-filter: blur(8px);
+  padding: 5px;
+  
+  border: none;
+  box-shadow:2px 2px 2px 2px rgb(31, 0, 0);
+}
+
+
+
+#result{
+     height: auto;
+     width: auto;
+     background-color: #134993;
+     text-align: center;
+     margin-top: 35px;
+     margin-bottom: 10px;
+     cursor: pointer;
+     color: #FFFFFF;
+     padding: 20px;
+     font-size: 1.50em;
+     border-radius: 25px;
+     box-shadow: 2px 2px 2px 2px rgb(7 7 76);
+     backdrop-filter: blur(10px);
+}
+.input_value{
+     font-style: arial;
+     font-size: 20px;
+   
+
+}
+
+.contact{
+     background-color: #bccf0f; 
+     text-align: center; 
+     margin-top: 5px;
+      margin-bottom: 30px;
+       cursor: pointer; 
+       color: #FFFFFF; 
+       padding: 20px; 
+       font-size: 1.50em;
+       border-radius: 25px;
+       box-shadow: 2px 2px 2px 2px  rgb(69, 95, 2);
+       
+}
+.select_buttons{
+     
+    line-height: 2;
+    font-size: 20px;
+    
+    
+    padding: 0px;
+    background-color: transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.select{
+     padding: 0;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 30px;
+     
+     color: #00060d;
+}
+
+#row-select{
+     height: 30px;
+     border-radius: 5px;
+     justify-self: center;
+     background-color:transparent;
+    
+     font-size: 20px;
+     text-transform: uppercase;
+     color: #000205;
+     border: solid;
+     
+}
+#column-select{
+     height: 30px;
+     border-radius: 5px;
+     justify-self: center;
+     background-color: transparent;
+    
+     font-size: 20px;
+     text-transform: uppercase;
+     color:#00050a;
+     border: solid;
+
+
+     
+}
+option{
+     color:black;
+}
+
+/*tego nie ma w html*/
+input[type="range"] {
+
+     display: block;
+     width: 60%;
+     height: auto;
+     cursor: pointer;
+     margin-top: 0.45rem;
+     margin-bottom: 0.45rem;
+     border-radius: 25px;
+     line-height: 1;
+}
+
+  
+
+.copyrights{
+     display: flex;
+     align-items: center;
+     
+
+}
+table{
+     display: none;
+}
+
+#imege-slider {
+     width: 468px;
+     height: 420px;
+     
+   }
+   /*tego juz nie ma 
+   #slider #top-row {
+     width: 868px;
+     height: 620px;
+     overflow: hidden;
+   }
+   
+   #slider #top-row {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+   
+   #slider .slide {
+     display: none;
+     width: 100%;
+     flex: 1;
+   }
+   
+   #slider .slide.active {
+     display: block;
+   }
+   
+   #slider #bottom-row {
+     display: flex;
+     justify-content: center;
+   }
+   
+   #dots {
+     margin-top: 10px;
+     display: inline-flex;
+     padding: 5px 10px;
+     padding-right: 0;
+     border-radius: 2px;
+   }
+   
+   #dots .dot {
+     width: 12px;
+     height: 12px;
+     background-color: #3a3a3a;
+     display: inline-block;
+     border-radius: 100%;
+     margin-right: 10px;
+   }
+   
+   .arrow {
+     margin: 0 5px;
+   }
+   
+   .arrow,
+   .dot {
+     cursor: pointer;
+   }*/
+
