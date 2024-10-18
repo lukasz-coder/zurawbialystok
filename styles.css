@@ -143,6 +143,9 @@ html{
      box-shadow: 2px 2px 2px 2px rgb(7 7 76);
      backdrop-filter: blur(10px);
 }
+#autor{
+     color: rgb(10, 27, 11);
+}
 .input_value{
      font-style: arial;
      font-size: 20px;
@@ -249,6 +252,7 @@ table{
      height: 420px;
      
    }
+   
    /*tego juz nie ma 
    #slider #top-row {
      width: 868px;
