@@ -1,6 +1,7 @@
 *{
      
-     max-height: fit-content;
+     max-height: auto;
+     max-width: auto;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      
      
