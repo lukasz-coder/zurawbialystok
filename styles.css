@@ -1,21 +1,23 @@
 *{
      
-     margin: 0;
+     max-height: fit-content;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      
-     box-sizing:border-box;
-     width: auto;
-     height: auto;
+     
+    
      
      
      
 }
 
 h1{
-     margin: 5px;
+     margin: 2px;
      text-align: center;
       font-family: Arial, Helvetica, sans-serif;
       width: auto;
+      
+    
+      
 }
 #logo{
      margin:5px;
@@ -30,7 +32,7 @@ h1{
 }
 #pic_metal{
      
-     display: flex;
+     display: contents;
      justify-content: center;
      
      
@@ -92,12 +94,12 @@ html{
     /* position: relative;/*umiejscowienie wzgledne */
      top: 10px;
      backdrop-filter: blur(10px);
-     height: min-content;
+     height:min-content;
      width: min-content;
      box-shadow: 10px 5px 10px 5px rgb(2, 1, 72);
 
      display: flex;
-     align-items: center;
+     align-items:center;
      justify-content: center;
      
 }
@@ -105,22 +107,25 @@ html{
 
 
 .buttons_crane{
-     border: 10px;
-     margin: 10px;
-     padding-bottom: 15px;
+     border: 5px;
+     margin: 18px;
+     padding-bottom: 30px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      
        
  }
 .button_select{
   border-radius: 25px;
-  font-size: 20px;
+  font-size: 18px;
+
   background: linear-gradient(to right,  rgb(249, 194, 194), rgb(98, 3, 3));
   width: 160px;
+  height: 30px;
   backdrop-filter: blur(8px);
-  padding: 5px;
+  padding: 2px;
   
   border: none;
   box-shadow:2px 2px 2px 2px rgb(31, 0, 0);
